@@ -1,8 +1,8 @@
 class Ssmtun < Formula
   desc "Supervised AWS SSM port-forwarding tunnels to RDS and friends"
   homepage "https://github.com/ak-inori/ssmtun"
-  url "https://github.com/ak-inori/ssmtun/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "02c7464050bd2795cf51b6856c0396b0af30d89940e4b4d03a3b66f3c73375fd"
+  url "https://github.com/ak-inori/ssmtun/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "8a9f4734bafd64c18876939ae965d60eec4b426ccf2c674972504a307f0a78f7"
   license "MIT"
 
   depends_on "go" => :build
